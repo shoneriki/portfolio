@@ -1,4 +1,4 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: MentorHub
+  image: MentorHub.png
+- name: Moovers
+  image: Moovers.png
