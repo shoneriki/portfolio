@@ -1,0 +1,41 @@
+#icons-container {
+  position: fixed;
+  padding: 32px;
+}
+
+#initials-icon {
+  border: black 2px solid;
+  margin: 36px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: .6s;
+  &:hover {
+    text-decoration: none;
+    color: blue;
+    border-color:blue;
+  }
+  &:visited, &:active, &:focus, &:hover {
+    text-decoration: none;
+  }
+}
+.social-icons {
+  list-style: none;
+  margin-left: none;
+  margin-top: 16px;
+  font-size: 36px;
+  color: black;
+  li {
+    text-decoration: none;
+    margin: 8px;
+  }
+  a {
+    color:black;
+    transition: 1s;
+    &:hover {
+      color:blue;
+      text-decoration: blue;
+    }
+  }
+}
