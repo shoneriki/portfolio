@@ -1,1 +1,32 @@
 // Specific CSS for your home-page
+#icons-box {
+  position:sticky;
+  padding: 32px;
+}
+
+
+.social-icons {
+  list-style: none;
+  margin-left: none;
+  margin-top: 16px;
+  font-size: 36px;
+  color: blue;
+  li {
+    text-decoration: none;
+    // display: inline;
+    margin: 8px;
+  }
+  a {
+    color: $white;
+    transition: .6s;
+    &:hover {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+}
+
+body {
+  font-family: ;
+  background-color: green;
+}
