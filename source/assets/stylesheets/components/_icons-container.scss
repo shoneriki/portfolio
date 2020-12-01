@@ -4,7 +4,7 @@
 }
 
 #initials-icon {
-  border: black 2px solid;
+  border: white 2px solid;
   margin: 36px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -25,13 +25,13 @@
   margin-left: none;
   margin-top: 16px;
   font-size: 36px;
-  color: black;
+  color: white;
   li {
     text-decoration: none;
     margin: 8px;
   }
   a {
-    color:black;
+    color:white;
     transition: 1s;
     &:hover {
       color:blue;
