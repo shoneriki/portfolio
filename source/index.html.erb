@@ -4,56 +4,69 @@
 
 
 
-      <!-- Social Icons -->
-      <div id="icons-container">
-        <a href="#" class="social-icons" id="initials-icon">
-          <span>SN</span>
+  <!-- Social Icons -->
+  <div id="icons-container">
+    <a href="#" class="social-icons" id="initials-icon">
+      <span>SN</span>
+    </a>
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.linkedin.com/in/shoneriki/">
+          <i class="fab fa-linkedin"></i>
         </a>
-        <ul class="social-icons">
-          <li>
-            <a href="https://www.linkedin.com/in/shoneriki/">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/shoneriki">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+      </li>
+      <li>
+        <a href="https://github.com/shoneriki">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-      <!-- Rest of page -->
+  <!-- Rest of page -->
+  <div class="container">
 
-      <!-- Name and Job-title Header -->
+    <!-- Name and Job-title Header -->
+    <div id="name-container">
+      <h1 id="name-content">Sho Neriki</h1>
+    </div>
+    <h3 id="sub-title">
+      Full Stack Developer | Classical Violinist
+    </h3>
 
-      <div id="name-container">
-        <h1 id="name-content">Sho Neriki</h1>
-      </div>
-      <h3 id="sub-title">
-        Full Stack Developer | Classical Violinist
-      </h3>
-
-      <!--Project card 1 -->
-
-
-
-        <div class="info1-wrap">
-          <div class="info1">
-            <hr>
-            <h1>MentorHub</h1>
-
-          </div>
+    <!-- Project Cards -->
+    <div class="card" id="about-me">
+      <div class="card-title">About</div>
+      <div class="card-content">
+        <div class="card-text">
+          My name is Sho Neriki and I'm a Full-Stack Web Developer.
+          <br><br> 
         </div>
+      </div>
+    </div>
 
-        <div class="card-wrapper">
-          <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/MentorHub.png');">
-            <%= image_tag "MentorHub.png" %>
+    <!-- MentorHub -->
+    <div class="card card-right">
+      <div class="card-title">Project</div>
+      <div class="card-content">
+        <a href="https://www.mentor-hub.app/" target="_blank">
+          <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/MentorHub.png');">
+            <%= image_tag 'MentorHub.png', :class => 'card-img-hidden' %>
           </div>
-          <p>An app designed to simplify the connection between mentors and mentees</p>
+        </a>
+        <div class="card-text">
+          MentorHub - Personal Growth Made Easy.
+          <br><br>
+          <br><br>
+          <a href="https://www.mentor-hub.app/">https://www.mentor-hub.app/</a>
         </div>
+      </div>
+    </div>
 
 
+
+
+  </div>
     <%# </div>
   </div>
 </div> %>
