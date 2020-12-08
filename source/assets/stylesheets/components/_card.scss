@@ -47,6 +47,7 @@
   transition: transform .6s;
   background-size: cover;
   background-color: $green;
+  padding: 16px 0;
   &:hover {
     transform: scale(1.02);
   }
