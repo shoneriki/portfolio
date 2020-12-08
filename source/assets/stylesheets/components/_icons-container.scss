@@ -1,6 +1,6 @@
 #icons-container {
   position: fixed;
-  padding: 32px;
+  // padding: 32px;
 }
 
 #initials-icon {
@@ -22,10 +22,14 @@
   }
 }
 .social-icons {
-  list-style: none;
-  margin-left: none;
+  list-style:none;
+  padding-left: 0px;
+  margin-left: 0px;
   margin-top: 16px;
   font-size: 36px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   li {
     text-decoration: none;
