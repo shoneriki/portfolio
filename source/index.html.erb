@@ -29,55 +29,59 @@
     </div>
     <!-- Name and Role Banner end-->
 
-    <!-- About Me card...link? -->
-    <div class="card" id="about-me">
-      <div class="card-title">About</div>
-      <div class="card-content">
-        <div class="card-text">
-          My name is Sho Neriki and I'm a Full-Stack Web Developer.
-          <br><br>
-        </div>
-      </div>
-    </div>
-    <!-- About Me Card end -->
-
-    <!-- MentorHub -->
-    <div class="card card-right">
-      <div class="card-title">MentorHub</div>
-      <div class="card-content">
-        <a href="https://www.mentor-hub.app/" target="_blank">
-          <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/MentorHub.png');">
-            <%= image_tag 'MentorHub.png', :class => 'card-img-hidden' %>
+    <!-- cards container start -->
+    <div class="cards">
+        <!-- About Me card...link? -->
+      <div class="card" id="about-me">
+        <div class="card-title">About</div>
+        <div class="card-content">
+          <div class="card-text-center">
+            My name is Sho Neriki and I'm a Full-Stack Web Developer.
+            <br><br>
           </div>
-        </a>
-        <div class="card-text">
-          MentorHub - Personal Growth Made Easy.
-          <br><br>
-          <br><br>
-          <a href="https://www.mentor-hub.app/">https://www.mentor-hub.app/</a>
         </div>
       </div>
-    </div>
-    <!-- MentorHub end-->
+      <!-- About Me Card end -->
 
-    <!-- Moovers -->
-    <div class="card">
-      <div class="card-title">Project</div>
-      <div class="card-content">
-        <a href="https://mooovers.herokuapp.com/" target="_blank">
-          <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/Moovers.png');">
-            <%= image_tag 'Moovers.png', :class => 'card-img-hidden' %>
+      <!-- MentorHub -->
+      <div class="card-left">
+        <div class="card-title">MentorHub</div>
+        <div class="card-content">
+          <a href="https://www.mentor-hub.app/" target="_blank">
+            <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/MentorHub.png');">
+              <%= image_tag 'MentorHub.png', :class => 'card-img-hidden' %>
+            </div>
+          </a>
+          <div class="card-text">
+            MentorHub - Personal Growth Made Easy.
+            <br><br> Needing a mentor in these tough times? Try MentorHub today
+            <br><br>
+            <a href="https://www.mentor-hub.app/">https://www.mentor-hub.app/</a>
           </div>
-        </a>
-        <div class="card-text">
-          Moovers - Innovative Delivery Solution
-          <br><br>Realize you have a ton of stuff to carry, but not having that big car that you need to carry your stuff? Hire a moover to do that for you!
-          <br><br>
-          <a href="https://mooovers.herokuapp.com/">https://mooovers.herokuapp.com/</a>
         </div>
       </div>
-    </div>
+      <!-- MentorHub end-->
+      <div class="card-right">
+        <div class="card-title">Moovers</div>
+        <div class="card-content-right">
+          <div class="card-text-right">
+            Moovers - Innovative Delivery Solution
+            <br><br> Realize you have a ton of stuff to carry, but not having that big car that you need to carry your stuff? Hire a moover to do that for you
+            <br><br>
+            <a href="https://mooovers.herokuapp.com/">https://mooovers.herokuapp.com/</a>
+          </div>
+          <a href="https://mooovers.herokuapp.com/" target="_blank">
+            <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/Moovers.png');">
+              <%= image_tag 'Moovers.png', :class => 'card-img-hidden' %>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Moovers -->
+
     <!-- Moovers End-->
-
+    </div>
+    <!-- cards container end -->
 
   </div>
+  <!--rest of page end-->
