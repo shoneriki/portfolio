@@ -3,6 +3,7 @@
 .cards {
   border-radius: 24px;
   border:2px solid white;
+  margin-bottom: 200px;
 }
 
 .card {
@@ -42,6 +43,7 @@
 
 .card-content a{
   width: 50%;
+  border:none;
 }
 
 .card-text {
@@ -89,6 +91,7 @@
   background-color: $green;
   background-clip: border-box;
   border-radius: 24px;
+  border:none;
 }
 
 .card-content-right {
