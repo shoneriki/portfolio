@@ -1,11 +1,11 @@
 .rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red );
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red );
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .rainbow-text-right {
-  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red );
+  background-image: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red );
   -webkit-background-clip: text;
   color: transparent;
 }
