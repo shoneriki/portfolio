@@ -1,123 +1,108 @@
-
-<!-- Rest of page -->
-  <div class="container">
-    <!-- Name and Role banner-->
-    <div class="banner">
-      <div class="banner-content">
-        <h1 class = "rainbow-text-right">Sho Neriki</h1>
-        <h2 class = "rainbow-text">Full Stack Web Developer</h2>
-        <div class="icons">
-          <ul class="social-icons">
-            <li>
-              <a href="https://www.linkedin.com/in/shoneriki/">
-              <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/shoneriki">
-              <i class="fab fa-github-square"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- Name and Role Banner end-->
-
-    <!-- cards container start -->
-    <div class="cards">
-        <!-- About Me card...link? -->
-      <div class="card" id="about-me">
-        <div class="card-title">About</div>
-        <div class="card-content">
-          <div class="card-text-center">
-            My name is Sho Neriki and I'm a Full-Stack Web Developer.
-            <br><br>
-          </div>
-        </div>
-      </div>
-      <!-- About Me Card end -->
-
-
-      <!-- MentorHub -->
-      <div class="card-left">
-        <div class="card-title">Project: MentorHub</div>
-        <div class="card-content">
-          <a href="https://www.mentor-hub.app/" target="_blank">
-            <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/MentorHub.png');">
-              <%= image_tag 'MentorHub.png', :class => 'card-img-hidden' %>
-            </div>
-          </a>
-          <div class="card-text">
-            MentorHub - Personal Growth Made Easy.
-            <br><br> Needing a mentor in these tough times? Try MentorHub today
-            <br><br>
-            <a href="https://www.mentor-hub.app/">https://www.mentor-hub.app/</a>
-          </div>
-        </div>
-      </div>
-      <!-- MentorHub end-->
-      <!-- Moovers start-->
-      <div class="card-right">
-        <div class="card-title">Project: Moovers</div>
-        <div class="card-content-right">
-          <div class="card-text-right">
-            Moovers - Innovative Delivery Solution
-            <br><br> Realize you have a ton of stuff to carry, but not having that big car that you need to carry your stuff? Hire a moover to do that for you
-            <br><br>
-            <a href="https://mooovers.herokuapp.com/">https://mooovers.herokuapp.com/</a>
-          </div>
-          <a href="https://mooovers.herokuapp.com/" target="_blank">
-            <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/Moovers.png');">
-              <%= image_tag 'Moovers.png', :class => 'card-img-hidden' %>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- Moovers end-->
-
-      <!-- Mixin' it up -->
-      <div class="card-left">
-        <div class="card-title">Project: Mixin' It Up</div>
-        <div class="card-content">
-          <a href="https://mixin-it-up.herokuapp.com/" target="_blank">
-            <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('assets/images/Mixin-It-Up.png');">
-              <%= image_tag 'Mixin-It-Up.png', :class => 'card-img-hidden' %>
-            </div>
-          </a>
-          <div class="card-text">
-            Mixin' It Up- Sit Back, Reax, Have A Drink
-            <br><br> Try putting in your favorite cocktail recipes
-            <br><br>
-            <a href="https://mixin-it-up.herokuapp.com/">https://mixin-it-up.herokuapp.com/</a>
-          </div>
-        </div>
-      </div>
-      <!-- Mixin' it up end-->
-
-      <!-- contact form start-->
-      <div class="container-form">
-        <div class="card-title">Contact</div>
-          <form id="contact-form">
-            <label>Name</label>
-            <input class="form-control" type="text" name="email">
-
-            <label>Email</label>
-            <input class="form-control" type="text" name="email">
-
-            <label>Message</label>
-            <textarea class="form-control" name="message"></textarea>
-
-            <input id="submit-btn" type="submit" value="Send">
-          </form>
-      </div>
-
-      <!-- contact form end-->
-
-    </div>
-    <!-- cards container end -->
-
-
-
+<header>
+  <div class="menu-toggler">
+    <div class="bar half start"></div>
+    <div class="bar"></div>
+    <div class="bar half end"></div>
   </div>
-<!--rest of page end-->
+  <nav class="top-nav">
+    <ul class="nav-list">
+      <li>
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li>
+        <a href="#about" class="nav-link">About</a>
+      </li>
+      <li>
+        <a href="#services" class="nav-link">Services</a>
+      </li>
+      <li>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="#experience" class="nav-link">Experience</a>
+      </li>
+      <li>
+        <a href="#contact" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="landing-text">
+    <h1>Sho Neriki</h1>
+    <h6>Full-Stack Web Developer</h6>
+  </div>
+</header>
+
+<section class="about" id="#about">
+  <div class="container">
+    <div class="profile-img">
+      <img src="assets/images/profile.jpg" alt="">
+    </div>
+    <div class="about-details">
+      <div class="about-heading">
+        <h1>About</h1>
+        <h6>Myself</h6>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut.
+      </p>
+    </div>
+    <div class="social-media">
+      <ul class="nav-list">
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icon-link">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-heading">
+      <h1>Services</h1>
+      <h6>What I offer</h6>
+    </div>
+    <div class="my-skills">
+
+      <div class="skill">
+        <div class="icon-container">
+          <i class="fas fa-layer-group"></i>
+        </div>
+        <h1>Front-end Dev</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          Lorem ipsum dolor sit amet, consectetur
+        </p>
+      </div>
+
+      <div class="skill">
+        <div class="icon-container">
+          <i class="fas fa-code-group"></i>
+        </div>
+        <h1>Back-end Dev</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          Lorem ipsum dolor sit amet, consectetur
+        </p>
+      </div>
+
+      <div class="skill">
+        <div class="icon-container">
+          <i class="fas fa-chart-group"></i>
+        </div>
+        <h1>Product Strategy</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          Lorem ipsum dolor sit amet, consectetur
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
