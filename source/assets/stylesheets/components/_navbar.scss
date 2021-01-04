@@ -3,8 +3,14 @@
   background: transparent;
 }
 
+.navbar-lewagon p{
+  font-family: "Dancing Script";
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  font-family: "Dancing Script";
+  font-size: 32px;
 }
 
 .navbar-lewagon .navbar-brand img {
