@@ -11,3 +11,4 @@ function toggle() {
   toggler.classList.toggle("open");
   topNav.classList.toggle("open");
 }
+toggle()
