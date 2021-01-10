@@ -12,27 +12,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Sho's Portfolio</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Comment this out when meta tags configured -->
     <%#= display_meta_tags %>
     <%= favicon_tag 'favicon.ico' %>
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous"></script>
-
-
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+    <%# <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous"></script> %>
+    <script src="https://kit.fontawesome.com/e1880d8b33.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
 
-  
+
 
     <%= yield %>
 
     <%= javascript_include_tag "bundle" %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="javascript/main.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="javascripts/main.js"></script>
   </body>
 </html>
