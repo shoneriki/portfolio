@@ -1,7 +1,7 @@
 <!-- Header -->
 <header data-aos="zoom-in" data-aos-duration="3000">
   <!-- to be added when jquery is figured out-->
-  <div class="menu-toggler">
+  <div class="menu-toggler" onclick="toggle()">
     <div class="bar half start"></div>
     <div class="bar"></div>
     <div class="bar half end"></div>
@@ -109,7 +109,7 @@
         <h6>Full-Stack Developer</h6>
         <h1>Project 3</h1>
         <p>
-          Mixin' It Up- Sit Back, Reax, Have A Drink
+          Mixin' It Up- Sit Back, Relax, Have A Drink
           <br><br>
           Try putting in your favorite cocktail recipes
         </p>
@@ -162,12 +162,12 @@
       <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-      <label for="service">Services:</label>
+      <%# <label for="service">Services:</label>
       <select name="services" id="service">
         <option value="">Front-End</option>
         <option value="">Back-End</option>
         <option value="">Other Skills</option>
-      </select>
+      </select> %>
       <label for="subject">Subject:</label>
       <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
       <input type="Submit" value="Submit">
