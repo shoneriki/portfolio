@@ -8,7 +8,7 @@
 function toggle() {
   const toggler = document.querySelector('.menu-toggler');
   const topNav = document.querySelector('.top-nav');
-  toggler.classList.toggle("open");
-  topNav.classList.toggle("open");
+  toggler.classList.toggle('open');
+  topNav.classList.toggle('open');
 }
-// toggle()
+toggle();
