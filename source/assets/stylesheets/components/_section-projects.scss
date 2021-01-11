@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
-  
+
 }
 
 .portfolio-item last-child {
@@ -17,10 +17,28 @@
 .portfolio-description{
   flex: 1;
 }
+.portfolio-description h1{
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
 
 .portfolio-description h6{
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 300;
-  opacity: 0.3;
+  // opacity: 0.5;
+}
+
+.portfolio-description .cta {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #3883ff;
+  transition: color 650ms;
+}
+
+.portfolio-description .cta:hover{
+  color: #2f67cd;
 }

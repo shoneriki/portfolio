@@ -1,7 +1,40 @@
 <!-- Header -->
 <header data-aos="fade-in" data-aos-duration="3000">
-  <!-- to be added when jquery is figured out-->
-  <div class="menu-toggler" onclick="toggle()">
+<!-- Optional Navbar -->
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <a class="navbar-brand" href="#">
+    <%# <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" /> %>
+    <p>Sho Neriki</p>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- Optional Navbar End -->
+
+<!-- optimistic navbar-->
+  <%# <div class="menu-toggler" onclick="toggle()">
     <div class="bar half start"></div>
     <div class="bar"></div>
     <div class="bar half end"></div>
@@ -14,9 +47,9 @@
       <li>
         <a href="#about" class="nav-link">About</a>
       </li>
-      <%# <li>
+      <li>
         <a href="#services" class="nav-link">Services</a>
-      </li> %>
+      </li>
       <li>
         <a href="#portfolio" class="nav-link">Portfolio</a>
       </li>
@@ -24,7 +57,8 @@
         <a href="#contact" class="nav-link">Contact</a>
       </li>
     </ul>
-  </nav>
+  </nav> %>
+  <!-- optimistic navbar end-->
   <div class="landing-text">
     <h1>Sho Neriki</h1>
     <h6>Full-Stack Web Developer</h6>
@@ -124,6 +158,7 @@ data-aos-offset="0">
 
     <div class="portfolio-item" data-aos="fade-right" data-aos-duration="3000">
       <div class="portfolio-img has-margin-right">
+        <%# <a href="https://www.mentor-hub.app/" target="_blank"> %>
         <img src="assets/images/MentorHub-portfolio.png" alt="">
       </div>
       <div class="portfolio-description">
@@ -134,7 +169,7 @@ data-aos-offset="0">
           <br></br>
           Needing a mentor in these tough times? Try MentorHub today.
         </p>
-        <a href="#" class="cta">View Details</a>
+        <a href="https://www.mentor-hub.app/" target="_blank" class="cta">Check it out</a>
       </div>
     </div>
 
@@ -144,7 +179,7 @@ data-aos-offset="0">
         <h1>Moovers </h1>
         <p>Moovers - Innovative Delivery Solution
             <br><br> Realize you have a ton of stuff to carry, but don't have that big car that you need to carry your stuff? Hire a moover to do that for you.</p>
-        <a href="#" class="cta">View Details</a>
+        <a href="https://mooovers.herokuapp.com/" target="_blank" class="cta">Check it out</a>
       </div>
       <div class="portfolio-img has-margin-right">
         <img src="assets/images/Moovers-portfolio.png" alt="">
@@ -157,13 +192,13 @@ data-aos-offset="0">
       </div>
       <div class="portfolio-description">
         <h6>Full-Stack Developer</h6>
-        <h1>Project 3</h1>
+        <h1>Mixin It Up</h1>
         <p>
           Mixin' It Up- Sit Back, Relax, Have A Drink
           <br><br>
           Try putting in your favorite cocktail recipes
         </p>
-        <a href="#" class="cta">View Details</a>
+        <a href="https://mixin-it-up.herokuapp.com/" target="_blank" class="cta">Check it out</a>
       </div>
     </div>
 
@@ -199,8 +234,9 @@ data-aos-offset="0">
 
 <!-- Footer -->
 <footer class="copyright">
-  <div class="up" id="up"></div>
+  <%# <div class="up" id="up">
     <i class="fas fa-chevron-up"></i>
-    <p>&copy; 2020 Sho Neriki</p>
+  </div> %>
+    <p>&copy; 2021 Sho Neriki</p>
 </footer>
 <!-- Footer End-->
