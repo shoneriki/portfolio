@@ -41,9 +41,7 @@ img{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (max-width: 992px) {
-  .my-skills {
-    width: 700px;
-  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -116,4 +114,16 @@ img{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
 
+  .menu-toggler{
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .landing-text h1{
+    font-size: 8rem;
+  }
+
+  .landing-text h6{
+    font-size: 1.4rem;
+  }
 }
