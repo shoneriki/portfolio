@@ -22,7 +22,7 @@ body {
 }
 
 section {
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a {
@@ -51,8 +51,8 @@ img{
   .my-skills {
     width: 600px;
   }
-  .portfolio-item last-child{
-    display: none;
+  .navbar-lewagon {
+    max-width: 300px;
   }
 }
 
@@ -60,5 +60,8 @@ img{
 @media (max-width: 576px) {
   .my-skills {
     width: 300px;
+  }
+  .navbar-lewagon {
+    max-width: 300px;
   }
 }
