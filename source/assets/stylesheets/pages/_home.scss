@@ -108,7 +108,7 @@ img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
   .menu-toggler{
     top: 2rem;
@@ -137,6 +137,9 @@ img{
 
   .portfolio-item{
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
   }
 
   .portfolio-img{
