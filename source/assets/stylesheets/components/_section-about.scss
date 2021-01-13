@@ -13,7 +13,7 @@
 }
 
 .about-heading h1{
-  font-size: 3rem;
+  font-size: 8rem;
   opacity: .3;
 }
 
@@ -45,6 +45,10 @@
 .social-media i{
   font-size: 5rem;
   transition: color 650ms;
+}
+
+.social-media .nav-list {
+  padding: 0;
 }
 
 .fa-linkedin-in:hover{

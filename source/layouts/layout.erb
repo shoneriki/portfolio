@@ -32,10 +32,13 @@
 
     <%= javascript_include_tag "bundle" %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/lib/jquery.plugin.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+    AOS.init({
+      easing: 'ease',
+      duration: 1800
+    }
+    );
     </script>
     <script src="/javascripts/main.js"></script>
   </body>
