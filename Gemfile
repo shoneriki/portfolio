@@ -9,6 +9,7 @@ gem 'rubocop'
 
 gem 'font-awesome-sass', '~> 5.13.0'
 # gem 'jquery-rails'
+gem "jquery-middleman"
 
 group :test do
   gem 'capybara'

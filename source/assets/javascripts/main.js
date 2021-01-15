@@ -1,13 +1,14 @@
-$(document).ready(function () {
-  $('.menu-toggler').on('click',function () {
-    $(this).toggleClass('open');
-    $('.top-nav').toggleClass('open');
-  });
+//= require jquery
+// $(document).ready(function () {
+//   $('.menu-toggler').on('click',function () {
+//     $(this).toggleClass('open');
+//     $('.top-nav').toggleClass('open');
+//   });
 
-  $('.top-nav .nav-link').on('click', function () {
-    $('.menu-toggler').removeClass('open');
-    $('.top-nav').removeClass('open');
-  });
+//   $('.top-nav .nav-link').on('click', function () {
+//     $('.menu-toggler').removeClass('open');
+//     $('.top-nav').removeClass('open');
+//   });
 
 //   $('nav a[href*="#"]').on('click', function () {
 //     $('html, body').animate( keyframes: {
@@ -20,7 +21,18 @@ $(document).ready(function () {
 //       scrollTop: 0
 //     }, options: 2000);
 //   })
-});
+// });
+const toggler = document.querySelector('.menu-toggler');
+const topNav = document.querySelector('.top-nav');
+const navLink = document.querySelectorAll('.nav-link');
+
+
+
+
+navLink.addEventListener('click', () => {
+  toggler.classList.removeClass('open');
+  topNav.classList.removeClass('open');
+})
 
 // function toggle() {
 //   const toggler = document.querySelector('.menu-toggler');
@@ -33,9 +45,10 @@ $(document).ready(function () {
 
 // function closeNav() {
 //   const toggler = document.querySelector('.menu-toggler');
-//   const topNav = document.querySelector('.top-nav');
+//   const navList = document.querySelector('.nav-list');
+
 
 //   toggler.removeClass('open');
-//   topNav.classList.removeClass('open');
+//   navList.classList.removeClass('open');
 // }
-// closeNav()
+// closeNav();

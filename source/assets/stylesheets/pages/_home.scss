@@ -1,7 +1,7 @@
 Specific CSS for your home-page
 * {
   margin: 0;
-  padding: 0;
+  padding: 6rem 0;
   box-sizing: border-box;
   color: white;
 }
@@ -45,6 +45,7 @@ img{
   body {
     background: url("/assets/images/bg-img.jpg") no-repeat center fixed;
     background-size: cover;
+    margin: 0;
   }
 
   .landing-text h1 {
@@ -108,7 +109,8 @@ img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 414px) {
+
 
   .menu-toggler{
     top: 2rem;
