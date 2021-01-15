@@ -49,6 +49,12 @@
 
 .social-media .nav-list {
   padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .fa-linkedin-in:hover{
