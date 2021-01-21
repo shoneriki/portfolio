@@ -23,7 +23,6 @@
 //   // });
 // });
 
-
 // const toggler = document.querySelector('.menu-toggler');
 // const openToggler = document.querySelector('.menu-toggler.open');
 // const topNav = document.querySelector('.top-nav');
