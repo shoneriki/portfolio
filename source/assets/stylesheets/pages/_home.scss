@@ -114,8 +114,12 @@ img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
 
+
+  .banner h1{
+    font-size: 92px;
+  }
 
   .menu-toggler{
     top: 2rem;
