@@ -10,7 +10,7 @@
   align-items: center;
   width: 100vw;
   h1{
-    font-size: 160px;
+    font-size: calc(40px + 10vw);
     font-family: 'Dancing Script', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -18,14 +18,14 @@
     margin: 0;
   }
   h3 {
-    font-size: 60px;
+    font-size: calc(12px + 7vw);
     font-family: 'Dancing Script', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .content {
-    width: 100%;
+    width: 100vw;
   }
 
 }
@@ -35,7 +35,7 @@
 }
 
 .social-media i{
-  font-size: 5rem;
+  font-size: calc(16px + 10vw);
   transition: color 650ms;
 }
 

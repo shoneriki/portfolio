@@ -79,9 +79,9 @@ img{
     font-size: 4.5rem;
   }
 
-  .about-heading h1{
-    font-size: 6rem;
-  }
+  // .about-heading h1{
+  //   font-size: 6rem;
+  // }
 
   .section-heading h1{
     font-size: 3rem;
@@ -151,10 +151,10 @@ img{
       padding: 0rem;
   }
 
-  .social-media i {
-    font-size: 4rem;
-    transition: color 650ms;
-  }
+  // .social-media i {
+  //   font-size: 4rem;
+  //   transition: color 650ms;
+  // }
 
   .nav-link{
     font-size: 3.5rem;
@@ -166,6 +166,14 @@ img{
 
   .profile-img{
     margin: 0 0 7rem 0;
+  }
+
+    .my-skills {
+    margin-top: 10rem;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+    grid-gap: 8px;
+    text-align: center;
   }
 
   .portfolio-item{
