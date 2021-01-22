@@ -44,6 +44,7 @@ img{
 }
 
 
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-width: 768px) {
   body {
@@ -114,7 +115,7 @@ img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
 
 
   .banner h1{
@@ -127,7 +128,7 @@ img{
   }
 
   .landing-text h1{
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .landing-text h6{
@@ -144,6 +145,11 @@ img{
 
   .profile-img{
     margin: 0 0 7rem 0;
+  }
+
+  .social-media i {
+    font-size: 4rem;
+    transition: color 650ms;
   }
 
   .portfolio-item{
