@@ -59,9 +59,9 @@ img{
   }
 
 
-  .landing-text h1 {
-    font-size: 15rem;
-  }
+  // .landing-text h1 {
+  //   font-size: 15rem;
+  // }
 
   .landing-text h6{
     font-size: 3rem;
@@ -127,25 +127,25 @@ img{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
 
 
-  .banner h1{
-    font-size: 92px;
-  }
+  // .banner h1{
+  //   font-size: 92px;
+  // }
 
   // .menu-toggler{
   //   top: 2rem;
   //   right: 2rem;
   // }
 
-  .landing-text h1{
-    font-size: 6rem;
-  }
+  // .landing-text h1{
+  //   font-size: 6rem;
+  // }
 
-  .landing-text h6{
-    font-size: 1.4rem;
-  }
+  // .landing-text h6{
+  //   font-size: 1.4rem;
+  // }
 
   .social-media .nav-list li {
       padding: 0rem;

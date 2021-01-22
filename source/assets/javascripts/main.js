@@ -39,7 +39,6 @@
 // }
 
 
-
 // function closeNav() {
 //   toggler.removeClass('open');
 //   navList.classList.removeClass('open');
