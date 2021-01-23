@@ -63,9 +63,9 @@ img{
   //   font-size: 15rem;
   // }
 
-  .landing-text h6{
-    font-size: 3rem;
-  }
+  // .landing-text h6{
+  //   font-size: 3rem;
+  // }
 
   // .nav-list {
   //   flex-direction: column;
@@ -83,9 +83,9 @@ img{
   //   font-size: 6rem;
   // }
 
-  .section-heading h1{
-    font-size: 3rem;
-  }
+  // .section-heading h1{
+  //   font-size: 3rem;
+  // }
 
   .about-details {
   flex: 1;
@@ -196,12 +196,21 @@ img{
     margin: 0 0 7rem 0;
   }
 
-  .my-skills {
-    margin-top: 10rem;
-    display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
-    grid-gap: 8px;
-    text-align: center;
+  // .my-skills {
+  //   margin-top: 10rem;
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  //   grid-gap: 8px;
+  //   text-align: center;
+  // }
+
+  .skill{
+    width: 90%;
+    padding: 0 24px;
+  }
+
+  .skill p{
+    font-size: 4rem;
   }
 
   .portfolio-item{
@@ -224,21 +233,21 @@ img{
     order: 2;
   }
 
-  .timeline p{
-    font-size: 1.6rem;
-  }
+  // .timeline p{
+  //   font-size: 1.6rem;
+  // }
 
-  .timeline .date::before{
-    font-size: 1.3rem;
-  }
+  // .timeline .date::before{
+  //   font-size: 1.3rem;
+  // }
 
   form{
-    width: 100%;
+    width: 90%;
   }
 
-  .up{
-    right: 2rem;
-  }
+  // .up{
+  //   right: 2rem;
+  // }
 
 
 }
