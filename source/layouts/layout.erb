@@ -23,13 +23,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/e1880d8b33.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/javascripts/main.js" defer></script>
   </head>
 
   <body>
     <%= yield %>
 
     <%= javascript_include_tag "bundle" %>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
     AOS.init({
       easing: 'ease',
@@ -37,6 +39,5 @@
     }
     );
     </script>
-    <script src="/javascripts/main.js"></script>
   </body>
 </html>
