@@ -67,9 +67,9 @@ img{
     font-size: 3rem;
   }
 
-  .nav-list {
-    flex-direction: column;
-  }
+  // .nav-list {
+  //   flex-direction: column;
+  // }
 
   .li {
     margin: 2rem 0;
@@ -149,6 +149,7 @@ img{
 
   .social-media .nav-list li {
       padding: 0rem;
+      display: column;
   }
 
   // .social-media i {
