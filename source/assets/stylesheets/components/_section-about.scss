@@ -9,18 +9,18 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 0;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .about-heading h1{
-  font-size: calc(48px + 10vw);
-  opacity: .4;
+  font-size: calc(24px + 6vw);
+  opacity: .5;
 }
 
-.about-heading h6{
-  font-size: 2rem;
-  font-weight: 300;
-}
+// .about-heading h6{
+//   font-size: 2rem;
+//   font-weight: 300;
+// }
 
 .profile-img{
   flex: 1;
@@ -32,7 +32,7 @@
 }
 
 .profile-img img{
-  width: 80%;
+  width: 70%;
   // height: 320px;
   border-radius: 10px;
 }

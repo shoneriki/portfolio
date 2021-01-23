@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   function success() {
     form.reset();
-    status.innerHTML = "Thanks!";
+    status.innerHTML = "Thank you!";
   }
 
   function error() {

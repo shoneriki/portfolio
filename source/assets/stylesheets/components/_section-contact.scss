@@ -2,42 +2,6 @@
   // background-color: #221e3f;
 }
 
-
-#status {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  border-radius: 8px;
-  margin: 0 auto;
-  width: 90%;
-}
-#status.success{
-  background-color: green;
-  animation: status 4s ease forwards;
-}
-#status.error{
-  background-color: red;
-  color: white;
-  animation: status 4s ease forwards;
-}
-
-@keyframes status{
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
-}
-
 form{
   display: flex;
   flex-direction: column;
@@ -74,4 +38,40 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color: #221e3f;
   background-color: #ffe838;
+}
+
+
+#status {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 90%;
+}
+#status.success{
+  background-color: green;
+  animation: status 4s ease forwards;
+}
+#status.error{
+  background-color: red;
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status{
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
