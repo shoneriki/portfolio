@@ -1,7 +1,7 @@
 Specific CSS for your home-page
 * {
   margin: 0;
-  padding: 6rem 0;
+  padding: 0;
   box-sizing: border-box;
   width: 100vw;
   overflow-x: hidden;
@@ -24,9 +24,9 @@ body {
   overflow-x:hidden
 }
 
-nav {
-  display:flex;
-}
+// nav {
+//   display:flex;
+// }
 
 section {
   padding: 2rem 0;
@@ -58,10 +58,44 @@ img{
     width: 100%;
   }
 
+  nav .main-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .main-menu .close-menu {
+    display: block !important;
+    position: absolute !important;
+    top: 20px;
+    right: 20px;
+  }
+  nav .open-menu {
+    display: block;
+    // margin: 0;
+  }
+  nav .main-menu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+      font-size: 1.6rem;
+  }
+  .icons i {
+      display: inline-block;
+      padding: 12px;
+  }
+
   p {
   font-size: 1rem;
   font-weight: 300;
-}
+  }
 
 
   // .landing-text h1 {

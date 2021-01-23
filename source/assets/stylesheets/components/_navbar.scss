@@ -1,30 +1,89 @@
-
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: transparent;
-  font-family: "Dancing Script", sans-serif;
+  background: transparent;
+  color: #fff;
+  display: flex !important;
+  justify-content: space-between;
 }
 
-.logo{
-  color: rgb(226,226,226);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 24px;
+nav .logo h1{
+  margin: 0;
 }
-.nav-links{
+
+nav .main-menu{
   display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-.nav-links li{
   list-style: none;
 }
-.nav-links a{
-  color: rgb(226,226,226);
+
+nav .main-menu li a {
+  display: inline-block !important;
+  padding: 15px;
   text-decoration: none;
-  letter-spacing: 3px;
-  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
 }
+
+nav .main-menu li a:hover {
+  background: blue;
+}
+
+nav .open-menu {
+  font-size: 2rem;
+  margin: 8px;
+  display: none;
+  cursor: pointer;
+}
+
+nav .main-menu .close-menu , .icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+.fa-github:hover {color: rgb(255, 123, 0);}
+.fa-linkedin:hover { color: white;}
+
+nav .logo {
+    margin: 6px;
+    font-size: 25px !important;
+    cursor: pointer;
+}
+
+nav .logo h1{
+  font-size: 1.5rem;
+  margin: 0;
+}
+@media screen and(max-width: 768px){
+
+}
+// nav .open-menu {
+
+// }
+// nav {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   min-height: 8vh;
+//   background-color: transparent;
+//   font-family: "Dancing Script", sans-serif;
+// }
+
+// .logo{
+//   color: rgb(226,226,226);
+//   text-transform: uppercase;
+//   letter-spacing: 5px;
+//   font-size: 24px;
+// }
+// .nav-links{
+//   display: flex;
+//   justify-content: space-around;
+//   width: 30%;
+// }
+// .nav-links li{
+//   list-style: none;
+// }
+// .nav-links a{
+//   color: rgb(226,226,226);
+//   text-decoration: none;
+//   letter-spacing: 3px;
+//   font-size: 14px;
+// }
