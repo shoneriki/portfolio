@@ -169,6 +169,11 @@ img{
     order: 2;
   }
 
+    .skill{
+    width: 100%;
+    padding: 0 24px;
+  }
+
 
 
   .icon-container{
@@ -247,8 +252,7 @@ img{
   // }
 
   .skill{
-    width: 90%;
-    padding: 0 24px;
+    width: 100%;
   }
 
   .skill p{
@@ -290,6 +294,16 @@ img{
   // .up{
   //   right: 2rem;
   // }
+}
 
+@media screen and (max-width: 320px) {
+  .skill {
+    width: 84%;
+  }
+}
 
+@media screen and (max-width: 280px) {
+  .skill {
+    width: 75%;
+  }
 }
