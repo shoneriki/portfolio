@@ -1,35 +1,21 @@
 // .navbar-lewagon {
 //   justify-content: space-between;
-//   background: transparent;
-//   font-family: "Dancing Script";
-//   color: white;
+//   background: white;
+//   z-index: 1;
+//   position: fixed;
 //   width: 100%;
+//   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.08);
 // }
-
-// .navbar-light .navbar-nav .nav-link {
-//     color: white;
-// }
-
-// .navbar-lewagon p{
-//   font-size: 32px;
-// }
-// .navbar navbar-expand-sm navbar-light navbar-lewagon{
-//   color:white;
-// }
-
 
 // .navbar-lewagon .navbar-collapse {
 //   flex-grow: 0;
-//   font-family: "Dancing Script";
-//   font-size: 32px;
-//   color: white;
+
 // }
 
-// .navbar-lewagon .navbar-collapse a{
-//   color: white;
+// .navbar-nav {
+//   align-items: center;
 // }
 
 // .navbar-lewagon .navbar-brand img {
 //   width: 40px;
-//   color: white;
 // }
