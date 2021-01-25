@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('my-form');
   // var button = document.getElementById("my-form-button");
   const status = document.getElementById('status');
-}
+  
 
   // Success and Error functions for after the form is submitted
 
