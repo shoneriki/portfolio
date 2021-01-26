@@ -65,9 +65,9 @@ img{
     margin: 5px;
   }
 
-  nav {
-    position: relative;
-  }
+  // nav {
+  //   position: relative;
+  // }
 
   .hamburger{
     position: absolute;
@@ -100,19 +100,6 @@ img{
   font-weight: 300;
   }
 
-
-  // .landing-text h1 {
-  //   font-size: 15rem;
-  // }
-
-  // .landing-text h6{
-  //   font-size: 3rem;
-  // }
-
-  // .nav-list {
-  //   flex-direction: column;
-  // }
-
   .li {
     margin: 2rem 0;
   }
@@ -120,14 +107,6 @@ img{
   .nav-link{
     font-size: 1rem;
   }
-
-  // .about-heading h1{
-  //   font-size: 6rem;
-  // }
-
-  // .section-heading h1{
-  //   font-size: 3rem;
-  // }
 
   .about-details {
   flex: 1;
@@ -149,12 +128,6 @@ img{
     // padding: 0px 20px;
     width: 95%;
   }
-
-//   .portfolio-img {
-//     width: 90%;
-//     margin-bottom: 40px;
-//     flex: 1;
-// }
 
   .portfolio-img{
     margin: 0 38px 2rem 0;
@@ -184,19 +157,6 @@ img{
   .icon-container i{
     font-size: 4rem;
   }
-
-  // .timeline ul{
-  //   margin: 0 0 0 auto;
-  // }
-
-  // .timeline .date::before{
-  //   left: -20rem;
-  // }
-
-  // .timeline .date::after{
-  //   left: -5.9rem;
-  // }
-
 
 }
 
