@@ -15,6 +15,15 @@ nav {
     color: white;
 }
 
+.top-container{
+  width: 100%;
+  max-width: 100rem;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  // position: relative;
+}
+
 .banner {
   padding: 1rem;
   margin: 0;
@@ -26,6 +35,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  height: 100%;
   h1{
     font-size: calc(60px + 10vw);
     font-family: 'Rouge Script', cursive;
@@ -79,88 +89,3 @@ nav {
 .fa-github-square:hover{
   color: #040204;
 }
-
-// .banner .container{
-//   width: 100%;
-//   padding: 15px 0;
-//   margin: 15px 0;
-// }
-
-// .hero {
-//   width: 100%;
-//   // height: 100vh;
-// }
-
-// .scroll-down{
-//   position: absolute;
-//   bottom: 5rem;
-//   left: 50%;
-//   transform: translateX(-50%);
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-
-// }
-
-// .mouse{
-//   width: 2.5rem;
-//   height: 5rem;
-//   border: 2px solid #fff;
-//   border-radius: 2rem;
-//   margin-bottom: .5rem;
-//   display:flex;
-// }
-
-// .mouse span{
-//   width: 1rem;
-//   height: 1rem;
-//   background-color: #fff;
-//   display: block;
-//   border-radius: 50%;
-//   margin: auto;
-//   animation: move-wheel 1s linear infinite;
-// }
-
-// .arrow span{
-//   display: block;
-//   width: 1rem;
-//   height: 1rem;
-//   border: 2px solid transparent;
-//   border-right-color: #fff;
-//   border-bottom-color: #fff;
-//   transform: rotate(45deg);
-//   animation: arrow-down 1s alternate infinite;
-// }
-
-// @keyframes move-wheel{
-//   0%{
-//     opacity: 0;
-//     transform: translateY(-1rem);
-//   }
-//   100%{
-//     opacity: 1;
-//     transform: translateY(1rem);
-//   }
-// }
-
-// @keyframes arrow-down{
-//   0%{
-//     opacity: 0;
-//     transform: translateY(-1rem);
-//     transform:rotate(45deg);
-//   }
-//   25%{
-//     opacity: .25;
-//   }
-//   50%{
-//     opacity: .5;
-//   }
-//   75%{
-//     opacity: .75;
-//   }
-//   100%{
-//     opacity: 1;
-//     transform: translateY(1rem);
-//     transform: rotate(45deg);
-//   }
-// }

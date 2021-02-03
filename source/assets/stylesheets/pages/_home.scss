@@ -257,12 +257,20 @@ img{
 }
 
 @media screen and (max-width: 320px) {
+
+  .top-container {
+    height: 100vh;
+  }
   .skill {
     width: 84%;
   }
 }
 
 @media screen and (max-width: 280px) {
+
+  .top-container{
+    height: 100vh;
+  }
   .skill {
     width: 75%;
   }
