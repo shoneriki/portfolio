@@ -1,4 +1,6 @@
 //= require jquery;
+
+
 window.addEventListener('DOMContentLoaded', () => {
 
   const form = document.getElementById('my-form');

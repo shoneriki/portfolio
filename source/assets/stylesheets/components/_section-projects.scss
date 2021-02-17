@@ -16,11 +16,14 @@
 }
 .portfolio-description{
   flex: 1;
+  background-color: rgba(0,0,14,0.7);
+  padding: 16px;
 }
 .portfolio-description h1{
   font-size: 3rem;
   font-weight: 300;
   margin: 1rem 0;
+  color: #fd57bf;
 }
 
 .portfolio-description h6{
@@ -31,14 +34,21 @@
 }
 
 .portfolio-description .cta {
+  background-color: #3883ff;
+  border-radius: 4px;
+  color: white;
   display: inline-block;
+  font-size: 1rem;
   margin-top: 2.5rem;
-  font-size: 1.5rem;
   text-transform: uppercase;
-  color: #3883ff;
-  transition: color 650ms;
+  padding: 8px 8px;
+  // transition: color 650ms;
 }
 
+
 .portfolio-description .cta:hover{
-  color: #2f67cd;
+  color: white;
+  text-decoration: none;
+  background-color: #4966a0;
+  transition: background-color 650ms;
 }
